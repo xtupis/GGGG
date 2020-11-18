@@ -1,0 +1,156 @@
+@-webkit-keyframes side-fall
+{
+   0% { -webkit-transform: perspective(1300px) translate3d(30%,30%,600px) rotate(10deg) ; opacity: 0;  }
+   100% { -webkit-transform: translate3d(0%,0%,0px) rotateX(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes side-fall
+{
+   0% { -moz-transform: perspective(1300px) translate3d(30%,30%,600px) rotate(10deg) ; opacity: 0;  }
+   100% { -moz-transform: translate3d(0%,0%,0px) rotateX(0deg) ; opacity: 1;  }
+}
+@keyframes side-fall
+{
+   0% { transform: perspective(1300px) translate3d(30%,30%,600px) rotate(10deg) ; opacity: 0;  }
+   100% { transform: translate3d(0%,0%,0px) rotateX(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes twister-up-in
+{
+   0% { -webkit-transform: translate(0px,200%) rotate(360deg) scale(0,0) ; -webkit-transform-origin: 100% 0; opacity: 0;  }
+   30% { -webkit-transform: translate(0px,200%) rotate(360deg) scale(0,0) ; -webkit-transform-origin: 100% 0;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) scale(1,1) ; -webkit-transform-origin: 0 0; opacity: 1;  }
+}
+@-moz-keyframes twister-up-in
+{
+   0% { -moz-transform: translate(0px,200%) rotate(360deg) scale(0,0) ; -moz-transform-origin: 100% 0; opacity: 0;  }
+   30% { -moz-transform: translate(0px,200%) rotate(360deg) scale(0,0) ; -moz-transform-origin: 100% 0;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) scale(1,1) ; -moz-transform-origin: 0 0; opacity: 1;  }
+}
+@keyframes twister-up-in
+{
+   0% { transform: translate(0px,200%) rotate(360deg) scale(0,0) ; transform-origin: 100% 0; opacity: 0;  }
+   30% { transform: translate(0px,200%) rotate(360deg) scale(0,0) ; transform-origin: 100% 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) scale(1,1) ; transform-origin: 0 0; opacity: 1;  }
+}
+@-webkit-keyframes unfold
+{
+   0% { -webkit-transform: rotateX(0deg) scale3d(0,0,0) ; opacity: 0;  }
+   30% { opacity: 1; -webkit-transform: rotateX(0deg) scale3d(0.4,0.4,1.0) ;  }
+   60% { -webkit-transform: rotateX(0deg) scale3d(0.4,1.0,1.0) ;  }
+   100% { -webkit-transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@-moz-keyframes unfold
+{
+   0% { -moz-transform: rotateX(0deg) scale3d(0,0,0) ; opacity: 0;  }
+   30% { opacity: 1; -moz-transform: rotateX(0deg) scale3d(0.4,0.4,1.0) ;  }
+   60% { -moz-transform: rotateX(0deg) scale3d(0.4,1.0,1.0) ;  }
+   100% { -moz-transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@keyframes unfold
+{
+   0% { transform: rotateX(0deg) scale3d(0,0,0) ; opacity: 0;  }
+   30% { opacity: 1; transform: rotateX(0deg) scale3d(0.4,0.4,1.0) ;  }
+   60% { transform: rotateX(0deg) scale3d(0.4,1.0,1.0) ;  }
+   100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+a.sylas
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+a.sylas:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.sylas:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.sylas:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}
