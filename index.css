@@ -544,3 +544,23 @@ input:focus, textarea:focus, select:focus
    -webkit-transition: all 500ms linear;
    transition: all 500ms linear;
 }
+#Button2
+{
+   line-height: 23px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FF6347;
+   border-radius: 4px;
+   background-color: #FF6347;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
