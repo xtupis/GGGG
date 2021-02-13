@@ -3,7 +3,7 @@
 <head>
 	<title>Mods</title>
 </head>
-<body>
+<body onload="get()">
 	<center>
 	<div>
 		<input type="text" placeholder="Mods №1 (https://minecraft-inside.ru/mods/)" size="100" id="link1">
@@ -14,6 +14,8 @@
 		<br>
 		<input type="button" value="Отправить" onclick="displaymessage()">
 		<script type="text/javascript" src="mods.js"></script>
+		<p id="savedText"></p>
+		<p id="openedText"></p>
 	</div>
 	</center>
 </body>
