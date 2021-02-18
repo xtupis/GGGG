@@ -11,4 +11,4 @@ var link = "https://xtupis.github.io/GGGG/mods.json";
 xhReq.open("GET", link , false);
 xhReq.send(null);
 var jsonObject = JSON.parse(xhReq.responseText);
-document.write(jsonObject);
+document.getElementById("json").innerHTML = jsonObject;
