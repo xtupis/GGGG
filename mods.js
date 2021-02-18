@@ -6,15 +6,9 @@ do
   		break;
   	}
 }while(!name)
-var storedItem = localStorage.getItem("storedItem");
-function displaymessage()
-{
-	var Item =document.getElementById("link1").value;
-	localStorage.setItem("storedItem", Item);
-	document.getElementById("savedText").innerHTML = Item + "SAVED";
-}
-function get()
-{
-	localStorage.getItem("storedItem");
-	document.getElementById("openedText").innerHTML = storedItem + "OPENED";
-}
+var xhReq = new XMLHttpRequest();
+var link = "https://xtupis.github.io/GGGG/mods.json";
+xhReq.open("GET", link , false);
+xhReq.send(null);
+var jsonObject = JSON.parse(xhReq.responseText);
+document.write(jsonObject);
