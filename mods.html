@@ -3,19 +3,19 @@
 <head>
 	<title>Mods</title>
 </head>
-<body onload="get()">
+<body>
 	<center>
 	<div>
-		<input type="text" placeholder="Mods №1 (https://minecraft-inside.ru/mods/)" size="100" id="link1">
+		<input name="name" type="text" placeholder="Name" id="name">
 		<br>
-		<input type="text" placeholder="Mods №2 (https://minecraft-inside.ru/mods/)" size="100" id="link2">
+		<input name="mods1" type="text" placeholder="Mods №1 (https://minecraft-inside.ru/mods/)" size="100" id="link1">
 		<br>
-		<input type="text" placeholder="Mods №3 (https://minecraft-inside.ru/mods/)" size="100" id="link3">
+		<input name="mods2" type="text" placeholder="Mods №2 (https://minecraft-inside.ru/mods/)" size="100" id="link2">
 		<br>
-		<input type="button" value="Отправить" onclick="displaymessage()">
-		<script type="text/javascript" src="mods.js"></script>
-		<p id="savedText"></p>
-		<p id="openedText"></p>
+		<input name="mods3" type="text" placeholder="Mods №3 (https://minecraft-inside.ru/mods/)" size="100" id="link3">
+		<br>
+		<input type="button" value="Отправить">
+		<p id="json"></p>
 	</div>
 	</center>
 </body>
